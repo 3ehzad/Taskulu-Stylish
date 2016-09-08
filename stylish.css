@@ -1,0 +1,45 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+/* font designed by https://github.com/rastikerdar
+   css style by @3ehzad http://airoweb.com 
+*/
+@-moz-document domain("taskulu.com") {
+  
+@import url('https://cdn.rawgit.com/rastikerdar/vazir-font/v4.1.0/dist/font-face.css')
+.sheet-name.text-overflow {
+  font-family: Vazir;
+}
+.list-title {
+  font-family: Vazir;
+  font-weight: bold;
+}  
+body {
+  font-family: Vazir,roboto,"Helvetica Neue",Helvetica,"Apple Color Emoji",Arial,sans-serif;
+}
+.list-section-title {
+  font-family: Vazir;
+  font-size: 11px;
+  font-weight: 300;
+}
+.task-contextual.rtl {
+  font-family: Vazir;
+  font-size: 13px;
+}
+.list-section .list-section-header {
+  background-color: transparent;
+}
+.list.selected-list .list-section-header{
+     background-color: transparent;
+  }
+.list-section[data-section-id="0"] {
+  background-color: #fff3f2;
+}
+  .list-section[data-section-id="1"] {
+  background-color: #fff8e8;
+}
+  .list-section[data-section-id="2"] {
+  background-color: #f2fdff;
+}
+  .list-section[data-section-id="3"] {
+  background-color: #f7ffef;
+}
+}
